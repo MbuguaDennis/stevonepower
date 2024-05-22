@@ -1,0 +1,163 @@
+.contact-section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contact-detail h3 {
+    margin-top: 1rem; /* Adjust top margin */
+    font-size: 1.5rem;
+    color: #333; /* Text color */
+}
+
+.contact-detail p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #666; /* Text color */
+}
+
+.contact-detail i {
+    color: orange; /* Icon color */
+    font-size: 3rem; /* Increase icon size */
+    background-color: #f8f8f8; /* Background color */
+    border-radius: 50%; /* Border radius to make it circle */
+    padding: 1.5rem; /* Increase padding for space around the icon */
+}
+
+/* Flex layout for large screens */
+@media (min-width: 768px) {
+    .contact-detail {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contact-detail i {
+        margin-right: 1rem; /* Add space between icon and text */
+    }
+}
+.enquiry-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.enq-input,
+.enq-checkbox {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.enq-checkbox {
+    width: auto;
+}
+
+.enq-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enq-submit:hover {
+    background-color: #cc0000;
+}
+
+span {
+    color: #ff0000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Styles for the Availability section */
+.availability-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.availability-section h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.availability-section p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the availability circle */
+.availability-circle {
+    display: inline-block;
+    position: relative;
+}
+
+.availability-circle .pulse {
+    width: 18px;
+    height: 18px;
+    background-color: #e70e0e; /* Green color for availability */
+    border-radius: 50%; /* Circular shape */
+    position: absolute;
+    top: -15px;
+    right:-10px ; /* Center horizontally */
+    animation: pulse 1.5s infinite alternate; /* Pulse animation */
+}
+
+.availability-circle .text {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+
+
+
+
+
+

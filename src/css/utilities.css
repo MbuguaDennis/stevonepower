@@ -1,0 +1,71 @@
+:root {
+    /* Define CSS variables for font families */
+    --font-poppins: 'Poppins', sans-serif;
+    --font-ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+    --font-nunito-sans: 'Nunito Sans', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto-mono: 'Roboto Mono', monospace;
+    --font-roboto: 'Roboto', sans-serif;
+    /* colors */
+    /* Primary Colors */
+  --primary-color-dark-blue: #2C3E50;
+  --primary-color-navy-blue: #34495E;
+  --primary-color-royal-blue: #4169E1;
+  --primary-color-midnight-blue: #191970;
+  --skyblue-hex:#87CEEB;
+  --skyblue-rgb:rgb(135, 206, 235) ;
+  --skyblue-hsla:hsl(197, 71%, 73%);
+
+
+  /* FRIEND PALLETTE */
+  --sky-blue: #87CEEB;
+--dark-blue: #004F67;
+--burnt-sienna: #974900;
+--orange: #F49531;
+
+
+/* DISCREETE COLORS  */
+--sky-blue: #87CEEB;
+--electric-blue: #00A5E7;
+--baby-blue: #E5FDFF;
+--pale-yellow: #FCFCD4;
+/*  */
+
+
+
+  /* Accent Colors */
+  --accent-color-electric-green: #00FF00;
+  --accent-color-lime-green: #32CD32;
+  --accent-color-emerald-green: #008000;
+  --accent-color-teal: #008080;
+
+  /* Neutral Colors */
+  --neutral-color-white: #FFFFFF;
+  --neutral-color-light-gray: #EAEAEA;
+  --neutral-color-silver: #C0C0C0;
+  --neutral-color-slate-gray: #708090;
+  /* Additional Colors (Optional) */
+  --additional-color-red: #FF0000;        /* Use for alerts, error messages, or critical information */
+  --additional-color-orange: #FFA500;     /* Suitable for warnings, alerts, or attention-grabbing elements */
+  --additional-color-yellow: #FFFF00;     /* Use for highlighting important information or call-to-action buttons */
+  --additional-color-gray: #808080;       /* Suitable for text, icons, or interface elements */
+  --additional-color-black: #000000;      /* Use for text, borders, or as a background color for high contrast */
+  
+/* breakpoints */
+ /* Breakpoints for responsiveness */
+ --breakpoint-xs: 576px;   /* Extra Small (XS) */
+ --breakpoint-sm: 768px;   /* Small (SM) */
+ --breakpoint-md: 992px;   /* Medium (MD) */
+ --breakpoint-lg: 1200px;  /* Large (LG) */
+               /* font styles */
+ --font-size-xs: 0.75rem;   /* Extra Small (XS) */
+  --font-size-sm: 0.875rem;  /* Small (SM) */
+  --font-size-md: 1rem;      /* Medium (MD) */
+  --font-size-lg: 1.125rem;  /* Large (LG) */
+  --font-size-xl: 1.25rem;   /* Extra Large (XL) */
+
+
+
+
+}
